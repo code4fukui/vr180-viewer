@@ -1,38 +1,37 @@
-<html>
-  <head>
-    <title>松江福井カニロボ協議会(仮)</title>
-    <script src="https://code4fukui.github.io/aframe/dist/aframe-master.min.js"></script>
-    <script src="https://code4fukui.github.io/aframe-stereo-component/dist/aframe-stereo-component.min.js"></script>
-  </head>
-  <body>
+<!DOCTYPE html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width">
+<title>松江と福井で協議会 - 全国ご当地こどもロボコン連盟</title>
+<script src="https://code4fukui.github.io/aframe/dist/aframe-master.min.js"></script>
+<script src="https://code4fukui.github.io/aframe-stereo-component/dist/aframe-stereo-component.min.js"></script>
+</head>
+<body>
 
-    <a-scene antialias="true">
-      <!-- Paths to left and right images -->
-      <a-assets>
-        <!--
-        <img id="left" src="./temp/jig.vr180L.jpg">
-        <img id="right" src="./temp/jig.vr180R.jpg">
-        <img id="left" src="./demo/left.jpg">
-        <img id="right" src="./demo/right.jpg">
-        -->
-        <img id="left" src="./kanirobo/matsue-fukui.vr180L.jpg">
-        <img id="right" src="./kanirobo/matsue-fukui.vr180R.jpg">
-      </a-assets>
+  <a-scene antialias="true">
+    <!-- Paths to left and right images -->
+    <a-assets>
+      <!--
+      <img id="left" src="./temp/jig.vr180L.jpg">
+      <img id="right" src="./temp/jig.vr180R.jpg">
+      <img id="left" src="./demo/left.jpg">
+      <img id="right" src="./demo/right.jpg">
+      -->
+      <img id="left" src="./kanirobo/matsue-fukui.vr180L.jpg">
+      <img id="right" src="./kanirobo/matsue-fukui.vr180R.jpg">
+    </a-assets>
 
-      <!-- Camera -->
-      <a-entity camera look-controls position="0 0 0" stereocam="eye:left;"></a-entity>
+    <!-- Camera -->
+    <a-entity camera look-controls position="0 0 0" stereocam="eye:left;"></a-entity>
 
-      <!-- Sky sphere -->
-      <a-sky id="sky1" src="#left" stereo="eye:left"></a-sky>
-      <a-sky id="sky2" src="#right" stereo="eye:right"></a-sky>
+    <!-- Sky sphere -->
+    <a-sky id="sky1" src="#left" stereo="eye:left"></a-sky>
+    <a-sky id="sky2" src="#right" stereo="eye:right"></a-sky>
 
-      <!-- or alternatively -->
+    <!-- or alternatively -->
 
-      <!--<a-sky id="sky1" src="http://i.imgur.com/YAaxpv6.jpg" stereo="eye:left"></a-sky>-->
-      <!--<a-sky id="sky2" src="http://i.imgur.com/JUxTnzK.jpg" stereo="eye:right"></a-sky>-->
+    <!--<a-sky id="sky1" src="http://i.imgur.com/YAaxpv6.jpg" stereo="eye:left"></a-sky>-->
+    <!--<a-sky id="sky2" src="http://i.imgur.com/JUxTnzK.jpg" stereo="eye:right"></a-sky>-->
 
 
-    </a-scene>
+  </a-scene>
 
-  </body>
+</body>
 </html>

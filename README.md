@@ -4,4 +4,4 @@
 
 ## 作例
 
-- [松江福井カニロボ協議会(仮)](https://code4fukui.github.io/vr180-viewer/kanirobo.html)
+- [松江と福井で協議会 - 全国ご当地こどもロボコン連盟](https://code4fukui.github.io/vr180-viewer/kanirobo.html)
